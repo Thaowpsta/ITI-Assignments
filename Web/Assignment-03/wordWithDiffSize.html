@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3</title>
+  </head>
+  <body>
+    <script>
+      let txt = "JavaScript using diff sizes";
+
+      for (let index = 0; index < 6; index++) {
+        let size = 2 * index;
+        let font = index % 2 == 0 ? "italic" : "bold";
+
+        document.write(
+          `<p style="font-size:${size}px; font-style:${font};">
+                ${txt}
+                </p>`
+        );
+      }
+
+      document.write("<br>");
+    </script>
+  </body>
+</html>

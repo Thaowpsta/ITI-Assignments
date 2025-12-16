@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3</title>
+  </head>
+  <body>
+    <script>
+      let num1 = prompt("Enter first number");
+      let num2 = prompt("Enter second number");
+      let num3 = prompt("Enter third number");
+
+      let max = Math.max(num1, num2, num3);
+      let min = Math.min(num1, num2, num3);
+
+      num1 = Number(num1);
+      num2 = Number(num2);
+      num3 = Number(num3);
+
+      document.writeln(`<p>First number: ${num1}</p>`);
+      document.writeln(`<p>Second number: ${num2}</p>`);
+      document.writeln(`<p>Third number: ${num3}</p>`);
+      document.writeln(`<p>Maximum is: ${max}</p>`);
+      document.writeln(`<p>Minimum: ${min}</p>`);
+    </script>
+  </body>
+</html>

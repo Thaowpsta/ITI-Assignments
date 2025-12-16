@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <div>
+        <span>Gourmet au catering</span>
+      </div>
+      <div>
+        <a href="#about" class="navs">About</a>
+        <a href="#menu" class="navs">Menu</a>
+        <a href="#contact" class="navs">Contact</a>
+      </div>
+    </div>
+    <!-- burger img section -->
+    <div class="img">
+      <img src="Simple Books API.postman_collection.jpeg" width="100%" />
+      <h1 id="img-title">Le Catering</h1>
+    </div>
+
+    <!-- Abiyt section -->
+    <div class="content-section" id="about">
+      <img src="tablesetting2.jpg" />
+      <div class="img-paragraph">
+        <h1 class="centered">About Catering</h1>
+        <br />
+        <h5 class="centered">Tradition since 1889</h5>
+        <p class="without-space">
+          The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
+          sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. We
+          only use <span class="highlighted">seasonal</span> ingredients.
+        </p>
+        <p class="grey-paragraph">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum consectetur adipiscing
+          elit, sed do eiusmod temporincididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Menu section -->
+    <div class="content-section" id="menu">
+      <div class="img-paragraph">
+        <h1 class="centered">Our Menu</h1>
+        <h4>Bread Basket</h4>
+        <p class="grey-paragraph">
+          Assortment of fresh baked fruit breads and muffins 5.50
+        </p>
+        <h4>Honey Almond Granola with Fruits</h4>
+        <p class="grey-paragraph">
+          Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+        </p>
+        <h4>Belgian Waffle</h4>
+        <p class="grey-paragraph">
+          Vanilla flavored batter with malted flour 7.50
+        </p>
+        <h4>Scrambled eggs</h4>
+        <p class="grey-paragraph">
+          Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+        </p>
+        <h4>Blueberry Pancakes</h4>
+        <p class="grey-paragraph">
+          With syrup, butter and lots of berries 8.50
+        </p>
+      </div>
+      <img src="tablesetting.jpg" />
+    </div>
+
+    <hr />
+
+    <!-- contact section -->
+    <div id="contact">
+      <h1>Contact</h1>
+      <br />
+      <p class="without-space">
+        We offer full-service catering for any event, large or small. We
+        understand your needs and we will cater the food to satisfy the biggerst
+        criteria of them all, both look and taste.
+        <br />
+        Do not hesitate to contact us.
+      </p>
+      <span class="blue-txt"
+        >Catering Service, 42nd Living St, 43043 New York, NY</span
+      >
+      <p class="without-space">
+        You can also contact us by phone 00553123-2323 or email
+        catering@catering.com, or you can send us a message here:
+      </p>
+
+      <form class="form">
+        <input type="text" name="Name" id="Name" placeholder="Name" />
+        <br />
+        <input
+          type="text"
+          name="How many people"
+          id="peolpe-count"
+          placeholder="peolpe-count"
+        />
+        <br />
+        <input type="datetime-local" name="date" value="2020-11-16T20:00"/>
+        <br />
+        <input
+          type="text"
+          name="Message / Special requirementa"
+          id="msg"
+          placeholder="Message / Special requirementa"
+        />
+        <br />
+      </form>
+
+      <button class="button">Send Message</button>
+    </div>
+  </body>
+</html>

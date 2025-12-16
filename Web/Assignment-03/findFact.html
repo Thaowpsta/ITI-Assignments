@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3</title>
+  </head>
+  <body>
+    <h3>Factorial from 1 to 10</h3>
+
+    <button onclick="findFactorial()">Find Factorial for</button>
+
+    <script>
+      function findFactorial(n) {
+        let num = prompt("Enter the number");
+
+        num = Number(num);
+        alert(Factorial(num));
+      }
+
+    </script>
+
+    <table style="border: 1px solid black">
+      <script>
+        function Factorial(n) {
+          let fact = 1;
+          for (let index = 1; index <= n; index++) {
+            fact *= index;
+          }
+          return fact;
+        }
+
+        for (let index = 0; index < 10; index++) {
+          document.write(
+            `<tr><td style="border: 1px solid black;">${index}</td><td style="border: 1px solid black;">${Factorial(
+              index
+            )}</td></tr>`
+          );
+        }
+      </script>
+    </table>
+  </body>
+</html>

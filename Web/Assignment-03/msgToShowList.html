@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 3</title>
+  </head>
+  <body>
+    <script>
+      let selections = prompt(
+        "Select a list style:\n1(bullet), 2(numbered), 3(lettered)"
+      );
+
+      selections = Number(selections);
+
+      switch (selections) {
+        case 1:
+          document.write("<h3>Bullet List</h3>");
+          document.write("<ul>");
+          document.write("<li>item 1</li>");
+          document.write("<li>item 2</li>");
+          document.write("<li>item 3</li>");
+          document.write("</ul>");
+          break;
+        case 2:
+          document.write("<h3>Numbered List</h3>");
+          document.write("<ol>");
+          document.write("<li>item 1</li>");
+          document.write("<li>item 2</li>");
+          document.write("<li>item 3</li>");
+          document.write("</ol>");
+          break;
+        case 3:
+          document.write("<h3>lettered List</h3>");
+          document.write('<ol type="A">');
+          document.write("<li>item 1</li>");
+          document.write("<li>item 2</li>");
+          document.write("<li>item 3</li>");
+          document.write("</ol>");
+          break;
+        default:
+          document.write(
+            "<h3 style='color:red;'>Invalid input! Please refresh the page.</h3>"
+          );
+
+          break;
+      }
+    </script>
+  </body>
+</html>
