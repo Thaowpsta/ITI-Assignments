@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: linear-gradient(
+        from 0% 0% to 0% 100%,
+        black 0%,
+        white 50%,
+        black 100%
+    );
+}
+
+.hello-text {
+    -fx-fill: red;
+    -fx-font-family: "Arial";
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0), 20, 0.0, 0, 0);
+}

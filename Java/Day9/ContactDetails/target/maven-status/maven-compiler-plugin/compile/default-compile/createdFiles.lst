@@ -1,0 +1,6 @@
+com/mycompany/contactdetails/Contact.class
+module-info.class
+com/mycompany/contactdetails/SecondaryController.class
+com/mycompany/contactdetails/DAO.class
+com/mycompany/contactdetails/PrimaryController.class
+com/mycompany/contactdetails/App.class
