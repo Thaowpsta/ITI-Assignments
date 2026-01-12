@@ -127,7 +127,7 @@ public class DAO {
 
     public Contact getLast() throws SQLException {
 
-        String query = "SELECT * FROM CONTACT_INFO FETCH LAST ROW ONLY";
+        String query = "SELECT * FROM CONTACT_INFO ORDER BY id DESC FETCH First ROW ONLY";
         PreparedStatement ps = connection.prepareStatement(query);
         ResultSet rs = ps.executeQuery();
 
