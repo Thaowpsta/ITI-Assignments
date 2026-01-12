@@ -1,0 +1,102 @@
+{
+  "library": {
+    "location": "Alex",
+    "description": "This a Library System",
+    "librarian": {
+      "id": "librarian",
+      "name": "Thaowpsta"
+    },
+    "book": {
+      "isbn": "book",
+      "title": "Lab 1 in XML",
+      "author": {
+        "name": "Thaowpsta Saiid"
+      },
+      "preface": "Welcome to my First book & i'm happy to see you reading it, my happiness is > anyone's happiness",
+      "parts": [
+        {
+          "title": "Basics",
+          "chapters": [
+            {
+              "title": "One",
+              "summary": "Understanding tags and elements.",
+              "sections": [
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Two",
+              "summary": "Understanding tags and elements.",
+              "sections": [
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Advanced",
+          "chapters": [
+            {
+              "title": "One",
+              "summary": "Understanding tags and elements.",
+              "sections": [
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Two",
+              "summary": "Understanding tags and elements.\n We can now use special symbols like < & > without errors here.",
+              "sections": [
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                },
+                {
+                  "paragraphs": [
+                    "This is a parag",
+                    "This is a parag"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

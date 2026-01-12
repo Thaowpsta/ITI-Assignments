@@ -1,0 +1,100 @@
+{
+  "location": "Alex",
+  "description": "This a Library System",
+  "librarian": {
+    "id": "librarian",
+    "name": "Thaowpsta"
+  },
+  "book": {
+    "isbn": "book",
+    "title": "Lab 1 in XML",
+    "author": {
+      "name": "Thaowpsta Gson"
+    },
+    "preface": "Welcome to my First book \u0026 i\u0027m happy to see you reading it, my happiness is \u003e anyone\u0027s happiness",
+    "parts": [
+      {
+        "title": "Basics",
+        "chapters": [
+          {
+            "title": "One",
+            "summary": "Understanding tags and elements.",
+            "sections": [
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              },
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two",
+            "summary": "Understanding tags and elements.",
+            "sections": [
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              },
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Advanced",
+        "chapters": [
+          {
+            "title": "One",
+            "summary": "Understanding tags and elements.",
+            "sections": [
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              },
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two",
+            "summary": "Understanding tags and elements.\n We can now use special symbols like \u003c \u0026 \u003e without errors here.",
+            "sections": [
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              },
+              {
+                "paragraphs": [
+                  "This is a parag",
+                  "This is a parag"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

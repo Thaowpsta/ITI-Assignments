@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <location>Alex</location>
+
+    <description>This a Library System</description>
+
+    <librarian id = "librarian">
+        <name>Thaowpsta</name>
+    </librarian>
+
+    <book isbn = "book">
+        <title>Lab 1 in XML</title>
+        <author name = "Thaowpsta Saiid"/>
+        <preface>
+            Welcome to my First book &amp; i'm happy to see you reading it, my happiness is &gt; anyone&apos;s happiness
+        </preface>
+
+        <part title = "Basics">
+            <chapter title = "One">
+                <summary>Understanding tags and elements.</summary>
+
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+                
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+            </chapter>
+
+            <chapter title = "Two">
+                <summary>Understanding tags and elements.</summary>
+
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+            </chapter>
+        </part>
+
+        <part title = "Advanced">
+            <chapter title = "One">
+                <summary>Understanding tags and elements.</summary>
+
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+                
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+            </chapter>
+
+            <chapter title = "Two">
+                <summary><![CDATA[ 
+                        Understanding tags and elements. 
+                        We can now use special symbols like < & > without errors here.
+                    ]]></summary>
+
+                <section>
+                  <paragraphs>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                  </paragraphs>
+                </section>
+
+                <section>
+                    <paragraph>This is a parag</paragraph>
+                    <paragraph>This is a parag</paragraph>
+                </section>
+            </chapter>
+        </part>
+    </book>
+</library>
