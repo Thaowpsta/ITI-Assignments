@@ -1,3 +1,19 @@
+# ======================
+**/target/
+**/build/
+
+# ======================
+# IDE files
+# ======================
+.idea/
+.vscode/
+*.iml
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+
 /Testing/lab1/target/
 /XML & Json/Day2/target/
 Data-Structures/
