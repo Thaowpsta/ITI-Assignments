@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Click on counter</string>
+    <string name="dynamic_frag">Number of Clicks is:</string>
+    <string name="add_btn">Count</string>
+</resources>

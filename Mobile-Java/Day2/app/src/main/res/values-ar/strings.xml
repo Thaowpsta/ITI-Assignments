@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day2</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="task_1">المهمة الأولى</string>
+    <string name="mobile_hint">أدخل رقم الهاتف</string>
+    <string name="message">الرسالة</string>
+    <string name="msg_hint">أدخل رسالتك</string>
+    <string name="exit">خروج</string>
+    <string name="next">التالي</string>
+    <string name="back">عودة</string>
+    <string name="task_2">المهمة الثانية</string>
+    <string name="task3">المهمة الثالثة</string>
+    <string name="write_shared">حفظ في Shared Pref</string>
+    <string name="read_shared">قراءة من Shared Pref</string>
+    <string name="write_internal">حفظ في الذاكرة الداخلية</string>
+    <string name="read_internal">قراءة من الذاكرة الداخلية</string>
+    <string name="write_sql">حفظ في SQLite</string>
+    <string name="read_sql">قراءة من SQLite</string>
+</resources>

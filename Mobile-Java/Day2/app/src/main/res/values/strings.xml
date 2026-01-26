@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Day2</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="task_1">First Task</string>
+    <string name="mobile_hint">Eneter you mobile number</string>
+    <string name="message">Message</string>
+    <string name="msg_hint">Enter your message</string>
+    <string name="exit">Exit</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="task_2">Second Task</string>
+    <string name="task3">Third Task</string>
+    <string name="write_shared">Write in Shared Pref</string>
+    <string name="read_shared">Read from Shared Pref</string>
+    <string name="write_internal">Write in Internal St</string>
+    <string name="read_internal">Read from Internal St</string>
+    <string name="write_sql">Write in SQLite</string>
+    <string name="read_sql">Read from SQLite</string>
+</resources>
