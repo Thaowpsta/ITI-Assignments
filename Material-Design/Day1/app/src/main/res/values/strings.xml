@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Day1</string>
+    <string name="foodienator">Foodienator</string>
+    <string name="order_your_favourite_meals">Order your favourite Meals</string>
+    <string name="here">Here!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam maecenas mi non sed ut odio. Non, justo, sed facilisi et.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_pass">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="search">Search</string>
+    <string name="work_place">Work Place</string>
+    <string name="choose_your_preferred_meal">Choose your preferred meal</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="price">$99.0</string>
+    <string name="items_num">3 Items</string>
+    <string name="menu">Menu</string>
+    <string name="beef">Beef Burger</string>
+    <string name="about">About this product</string>
+    <string name="desc">Crunchy beef burger with onion and lettuce</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="_25_minutes">25 minutes</string>
+    <string name="buy">Buy Now</string>
+    <string-array name="my_dropdown_items">
+        <item>Work Place</item>
+        <item>Work Place</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+</resources>

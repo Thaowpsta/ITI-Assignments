@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:paddingTop="@dimen/padding_32">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/foodienator"
+        android:textColor="@color/white"
+        android:textSize="@dimen/logo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/order_your_favourite_meals"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/here"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_Sign">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/padding_bottom"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/sign_in_button"
+            android:text="@string/sign_in"
+            app:cornerRadius="@dimen/button_radious"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="@dimen/padding_bottom"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            app:cornerRadius="@dimen/button_radious"
+            android:backgroundTint="@color/register_button"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+</LinearLayout>

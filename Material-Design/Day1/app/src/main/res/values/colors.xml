@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#22C7A9</color>
+    <color name="sign_in_button">#2DB6A3</color>
+    <color name="register_button">#DADADA</color>
+    <color name="txt_field">#F3F3F3</color>
+    <color name="btn_register">#DFB497</color>
+    <color name="gray">#464444</color>
+    <color name="transparent">#00464444</color>
+    <color name="red">#F73859</color>
+</resources>

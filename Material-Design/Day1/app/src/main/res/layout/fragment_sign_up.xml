@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/appbar_shape"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="515dp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sign_up" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:layout_marginHorizontal="@dimen/txtField_radious"
+        app:boxCornerRadiusBottomEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusBottomStart="@dimen/txtField_radious"
+        app:boxCornerRadiusTopEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusTopStart="@dimen/txtField_radious"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/txt_height"
+            android:drawableStart="@drawable/mail"
+            android:drawablePadding="@dimen/button_radious"
+            android:hint="@string/email"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/txtField_radious"
+        app:boxBackgroundColor="@color/white"
+        app:boxCornerRadiusBottomEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusBottomStart="@dimen/txtField_radious"
+        app:boxCornerRadiusTopEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusTopStart="@dimen/txtField_radious"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/txt_height"
+            android:drawableStart="@drawable/person"
+            android:drawablePadding="@dimen/button_radious"
+            android:hint="@string/username"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/txtField_radious"
+        app:boxBackgroundColor="@color/white"
+        app:boxCornerRadiusBottomEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusBottomStart="@dimen/txtField_radious"
+        app:boxCornerRadiusTopEnd="@dimen/txtField_radious"
+        app:boxCornerRadiusTopStart="@dimen/txtField_radious"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/txt_height"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="@dimen/button_radious"
+            android:hint="@string/password"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/txt_height"
+        android:text="@string/register"
+        android:layout_margin="@dimen/padding_32"
+        android:backgroundTint="@color/btn_register"
+        android:elevation="@dimen/button_radious"
+        android:translationZ="3dp"/>
+
+</LinearLayout>
