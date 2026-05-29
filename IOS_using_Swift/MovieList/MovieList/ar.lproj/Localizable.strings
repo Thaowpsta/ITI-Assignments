@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  MovieList
+
+  Created by Thaowpsta Saiid on 12/05/2026.
+  
+*/
+
+"Add New Product" = "إضافة منتج جديد";
+"Done" = "تم";
+"Select Product Image" = "اختر صورة المنتج";
+"Product Title" = "اسم المنتج";
+"Description" = "الوصف";
+"Category" = "الفئة";
+"Price" = "السعر (مثال: ١٩.٩٩)";
+"Rating" = "التقييم (مثال: ٤.٥)";

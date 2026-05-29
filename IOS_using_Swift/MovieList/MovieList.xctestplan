@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "1E33F713-94B9-4045-9AB6-7FDBB837222A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MovieList.xcodeproj",
+      "identifier" : "57003F382FA35E4000F2646A",
+      "name" : "MovieList"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

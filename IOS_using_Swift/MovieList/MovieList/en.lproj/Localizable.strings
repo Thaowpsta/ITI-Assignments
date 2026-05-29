@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  MovieList
+
+  Created by Thaowpsta Saiid on 12/05/2026.
+  
+*/
+
+"Add New Product" = "Add New Product";
+"Done" = "Done";
+"Select Product Image" = "Select Product Image";
+"Product Title" = "Product Title";
+"Description" = "Description";
+"Category" = "Category";
+"Price" = "Price (e.g. 19.99)";
+"Rating" = "Rating (e.g. 4.5)";
